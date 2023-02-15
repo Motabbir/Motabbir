@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    height: 68px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.images {
+    width: 47px;
+    padding: 12px 21px 12px 32px;
+}
+
+nav ul {
+    height: 46px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    font-size: 21px;
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+}
+
+.search {
+    display: inline;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 21px 0 21px 23px;
+}
+
+.src {
+    font-size: 18px;
+    width: 315px;
+    height: 4vh;
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 8px 0px 10px;
+}
+
+.button {
+    background-color: aqua;
+    font-size: 16px;
+    width: 85px;
+    height: 4vh;
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 0px 0px 0px 5px;
+    margin: 0px 10px 0px 0px;
+}
+
+.Sign {
+    margin: 0 0 0 6px;
+    color: black;
+    text-decoration: underline;
+}
+
+.login {
+    margin: 0 0 0 240px;
+    color: black;
+    text-decoration: underline;
+}
+
+.or {
+    font-size: 21px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container {
+    min-height: calc(100vh - 68px - 10vh);
+    background: rgb(148, 173, 139);
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    height: 358px;
+    width: 984px;
+
+}
+.card{
+    max-width: 50vh;
+    margin: 0px 2px 2px 2px;
+    width: 5vw;
+    height: 5vh;
+}
+footer {
+    height: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: aqua;
+    color: rgb(13, 12, 11);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
